@@ -24,6 +24,7 @@
     <string name="answering">Ответить</string>
     <string name="letter">Письмо соискателю</string>
     <string name="OK">OK</string>
-    <string name="replyTitle">Ответ работодателя</string><string name="clear">Сбросить значения</string>
+    <string name="replyTitle">Ответ работодателя</string>
+    <string name="clear">Заполнить данными автора</string>
 
 </resources>

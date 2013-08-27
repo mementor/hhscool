@@ -23,7 +23,7 @@ public class Activity1 extends Activity implements View.OnClickListener, DatePic
 
     private String selectedGender = "";
     private int myYear = 1986;
-    private int myMonth = 10;
+    private int myMonth = 11;
     private int myDay = 10;
 
     @Override
@@ -54,12 +54,12 @@ public class Activity1 extends Activity implements View.OnClickListener, DatePic
         findViewById(R.id.btn_clear).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ((EditText) findViewById(R.id.data_fio)).setText("");
-                ((EditText) findViewById(R.id.data_birth)).setText("");
-                ((EditText) findViewById(R.id.data_position)).setText("");
-                ((EditText) findViewById(R.id.data_prize)).setText("");
-                ((EditText) findViewById(R.id.data_phone)).setText("");
-                ((EditText) findViewById(R.id.data_email)).setText("");
+                ((EditText) findViewById(R.id.data_fio)).setText("Кубарь Роман Юрьевич");
+                ((EditText) findViewById(R.id.data_birth)).setText("10.11.1986");
+                ((EditText) findViewById(R.id.data_position)).setText("Программист");
+                ((EditText) findViewById(R.id.data_prize)).setText("100500");
+                ((EditText) findViewById(R.id.data_phone)).setText("+79299029910");
+                ((EditText) findViewById(R.id.data_email)).setText("me@mentro.us");
             }
         });
     }
