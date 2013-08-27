@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HH School</string>
+    <string name="action_settings">Настройки</string>
+    <string name="fio">ФИО</string>
+    <string name="birth_date">Дата рождения</string>
+    <string name="position">Должность</string>
+    <string name="pize">Зарплата</string>
+    <string name="phone">Номер телефона</string>
+    <string name="email">E-mail</string>
+    <string name="btn_txt">Отправить резюме</string>
+
+    <string name="ac2_title">Резюме</string>
+
+    <string-array name="ganders">
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+
+    <string name="title_activity_activity2">Заявка</string>
+    <string name="gender">Пол</string>
+    <string name="answer">Ответ</string>
+    <string name="answering">Ответить</string>
+    <string name="letter">Письмо соискателю</string>
+    <string name="OK">OK</string>
+    <string name="replyTitle">Ответ работодателя</string><string name="clear">Сбросить значения</string>
+
+</resources>
